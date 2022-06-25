@@ -11,6 +11,33 @@ export default {
   name: 'App',
   components: {
     Header
+  },
+  data() {
+    return {
+      tasks: []
+    }
+  },
+  created() {
+    this.tasks = [
+      {
+        id: 1,
+        text: 'Doc Appointment',
+        day: 'Mar 1st at 2:30pm',
+        reminder: true,
+      },
+      {
+        id: 2,
+        text: 'Meeting at school',
+        day: 'Mar 3rd at 1:30pm',
+        reminder: true,
+      },
+      {
+        id: 3,
+        text: 'Food shopping',
+        day: 'Mar 3rd at 11:00am',
+        reminder: false,
+      }
+    ]
   }
 }
 </script>
