@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name: 'Header'
+    name: 'Header',
 }
 </script>
 
@@ -14,7 +14,7 @@ export default {
 header {
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 </style>
