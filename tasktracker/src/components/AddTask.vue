@@ -35,6 +35,10 @@
         methods: {
             onSubmit(e) {
                 e.preventDefault()
+                if (!this.text) {
+                    alert('Please add a task')
+                    return
+                }
             }
         }
     }
