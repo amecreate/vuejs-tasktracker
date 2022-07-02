@@ -31,6 +31,11 @@
                 day: '',
                 reminder: false
             }
+        },
+        methods: {
+            onSubmit(e) {
+                e.preventDefault()
+            }
         }
     }
 </script>
