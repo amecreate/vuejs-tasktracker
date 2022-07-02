@@ -21,3 +21,9 @@
     <input type="submit" value="Save Task" class="btn btn-block" />
   </form>
 </template>
+
+<script>
+    export default {
+        name: 'AddTask'
+    }
+</script>
