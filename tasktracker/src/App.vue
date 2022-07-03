@@ -52,7 +52,7 @@ export default {
     },
     async toggleReminder(id) {
       const taskToToggle = await this.fetchTask(id)
-      const updTask = {...taskToToggle, reminder: !taskToRoggle.reminder}
+      const updTask = {...taskToToggle, reminder: !taskToToggle.reminder}
       const res = await fetch(`api/tasks/${id}`, {
         method: 'PUT',
         headers: {
