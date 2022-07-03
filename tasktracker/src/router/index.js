@@ -15,4 +15,4 @@ const router = createRouter({
     routes
 })
 
-export default Router
+export default router
